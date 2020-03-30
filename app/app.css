@@ -1,0 +1,93 @@
+.action-bar {
+    color: white;
+    horizontal-align: center;
+    padding: 8;
+    font-size: 6;
+    background-color: #131d4e;
+  }
+  
+  .button {
+    background-color: #fcd905;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    margin: 10;
+  }
+
+  .header-label {
+    horizontal-align: center;
+    font-size: 25;
+    text-align: center;
+    background-color: #db1921;
+    color: White;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+}
+
+.red-message {
+    font-size: 15;
+    margin-top: 5;
+    margin-right: 5;
+    margin-bottom: 5;
+    margin-left: 5;
+    padding: 5;
+    text-align: center;
+    background-color: #db1921;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .list-panel {
+    color: white;
+    text-align: center;
+    font-size: 20;
+    margin: 1;
+    width: 100%;
+    background-color: #131d4e;
+}
+
+.lineSep {
+    height: 1;
+    background-color: white;
+    padding: 20;
+}
+
+.leftCol {
+    horizontal-align: right;
+    color: white;
+    font-size: 15;
+    margin: 0;
+    background-color: #131d4e;
+}
+
+.rightCol {
+    horizontal-align: left;
+    text-decoration: underline;
+    color: white;
+    font-size: 15;
+    margin: 0;
+    background-color: #131d4e;
+}
+
+.rightColNoUL {
+    horizontal-align: left;
+    color: white;
+    font-size: 15;
+    margin: 0;
+    background-color: #131d4e;
+}
+
+.listRightItem {
+    color: white;
+    font-size: 20;
+    vertical-align: center;
+}
+
+
+
+  
+  
+  
+

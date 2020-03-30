@@ -1,0 +1,37 @@
+{
+  "name": "csc4w",
+  "version": "1.0.0",
+  "description": "CSC4W Member App",
+  "author": "hankster76 <hankster76@users.noreply.github.com>",
+  "license": "MIT",
+  "nativescript": {
+    "id": "org.nativescript.csc4w",
+    "templateVersion": "v2",
+    "tns-ios": {
+      "version": "6.0.1"
+    },
+    "tns-android": {
+      "version": "6.4.1"
+    }
+  },
+  "dependencies": {
+    "@nativescript/theme": "^2.2.1",
+    "axios": "^0.19.2",
+    "nativescript-calendar": "^2.2.0",
+    "nativescript-email": "^1.6.0",
+    "nativescript-locate-address": "^1.0.3",
+    "nativescript-phone": "^1.4.1",
+    "nativescript-vue": "^2.5.0",
+    "tns-core-modules": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "nativescript-dev-webpack": "^1.0.0",
+    "nativescript-vue-template-compiler": "^2.5.0",
+    "nativescript-worker-loader": "^0.11.0",
+    "node-sass": "^4.9.2",
+    "vue-loader": "^15.4.0"
+  }
+}
