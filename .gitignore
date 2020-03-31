@@ -4,6 +4,8 @@
 # NPM
 node_modules
 
+csc4w.keystore
+
 # NativeScript application
 hooks
 platforms
