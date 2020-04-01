@@ -9,7 +9,7 @@
           text="This App will keep you updated on the activities, directors, sponsors and trails for the Colorado Springs Christian 4-Wheelers club"
           class="description"
         />
-        <ListView for="item in misc" height="160" >
+        <ListView for="item in misc" height="160" class = "homePanel">
           <v-template>
             <Label :text="item.motd" class="red-message" textWrap="true"></Label>
           </v-template>
