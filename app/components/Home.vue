@@ -47,7 +47,7 @@
             },
 
         },
-
+/*
         mounted: function() {
             axios({ method: "GET", "url": "https://api.myjson.com/bins/10cx7g" })
             .then(result => {
@@ -58,6 +58,7 @@
                 console.error(error);
             })
         }
+*/
 
     };
 </script>

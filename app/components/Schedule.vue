@@ -644,6 +644,7 @@
                 });
             }
         },
+/*
         mounted: function() {
             axios({ method: "GET", "url": "https://api.myjson.com/bins/12l5h8" })
             .then(result => {
@@ -654,6 +655,7 @@
                 console.error(error);
             })
         }
+*/
     }   
 
 
