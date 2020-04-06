@@ -28,7 +28,11 @@
 
         data: () => {
             return {
-                misc: []
+                misc: [
+                  {
+                    "motd": "We are staying up-to-date on the current situation with COVID-19 and will adjust accordingly.  For the time being, watch our web site or our facebook page for important updates to our event schedule.  Stay safe!"
+                  }
+                ]
             };
         },
 
