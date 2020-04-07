@@ -1,9 +1,10 @@
 <template>
     <Page>
         <ActionBar title="Colorado Springs Christian 4-Wheelers" class="action-bar" />
-        <StackLayout class="home-panel">
+        <StackLayout class="list-panel">
             <Label textWrap="true" class="header-label"
                 text="Our Directors for This Year" />
+            <Button class="button" text="About Our Directors" @tap="onAboutTap" />
             <ListView for="director in directors" @itemTap="onItemTap" height="100%" separatorColor="white" class="list-panel" >
                 <v-template>
                     <GridLayout columns="100,*" , rows="*">
@@ -18,6 +19,7 @@
 
 <script>
     import DirectorDetails from "./DirectorDetails";
+    import AboutDirectors from "./AboutDirectors";
     import axios from "axios";
 
     export default {
@@ -163,7 +165,12 @@
                         }
                     }
                 });
-            }
+            },
+            onAboutTap() {
+                //console.log("Button was pressed");
+                this.$showModal(AboutDirectors);
+            },
+
         },
 
 /*
@@ -220,9 +227,5 @@
         width: 100%;
     }
 
-    .button {
-        background-color: #fcd905;
-        color: black;
-        font-size: 25;
-    }
+
 </style>
