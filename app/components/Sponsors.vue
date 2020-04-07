@@ -4,6 +4,7 @@
         <StackLayout class="list-panel">
             <Label textWrap="true" class="header-label"
                 text="Our Sponsors" />
+            <Button class="button" text="About Our Sponsors" @tap="onAboutTap" />
             <ListView for="sponsor in sponsors" @itemTap="onItemTap" height="100%" separatorColor="white" class="list-panel" >
                 <v-template>
                     <GridLayout columns="100,*" , rows="*,*">
@@ -18,6 +19,7 @@
 
 <script>
     import SponsorDetails from "./SponsorDetails";
+    import AboutSponsors from "./AboutSponsors";
     import axios from "axios";
 
     export default {
@@ -339,7 +341,13 @@
                         }
                     }
                 });
-            }
+            },
+            onAboutTap() {
+                //console.log("Button was pressed");
+                this.$showModal(AboutSponsors);
+            },
+
+
         }
 /*
 },

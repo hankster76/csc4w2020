@@ -4,7 +4,7 @@
         <StackLayout class="list-panel">
             <Label textWrap="true" class="header-label"
                 text="Trails" />
-        <Button class="button" text="About This Tab" @tap="onTrailsTap" />
+            <Button class="button" text="About The Trails" @tap="onTrailsTap" />
             <ListView for="trail in trails" @itemTap="onItemTap" height="100%" separatorColor="white" class="list-panel">
                 <v-template>
                     <GridLayout columns="150,*" , rows="*,*">

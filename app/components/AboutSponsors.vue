@@ -1,10 +1,10 @@
 <template>
     <Page>
-        <ActionBar title="About The Trails" />
+        <ActionBar title="About Our Sponsors" />
         <ScrollView background="#131d4e">
             <StackLayout>
                 <Label class="about-panel" textWrap="true"
-                    text="These are the trails that we have traveled in the past or will travel this season.  In the details for each trail there is a link to information about the trail from our sponsor Funtreks.  Also, we included a Cotrex link that will show you where the trail is.  The trailhead coordinates are derived from google maps but should be fairly accurate.  Trail ratings here are based on FunTreks ratings" />
+                    text="Our Sponsors help us to keep our membership dues low.  They donate prizes for our giveaway at kick off, they provide meals for some events and in some cases provide us donations to pay for club sponsored events.  You can show your appreciation for their sponsorhip by mentioning the club when you visit them." />
                 <Button @tap="$modal.close" text="Close" class="button" />
             </StackLayout>
         </ScrollView>

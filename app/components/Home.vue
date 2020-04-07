@@ -28,11 +28,7 @@
 
         data: () => {
             return {
-                misc: [
-                  {
-                    "motd": "We are staying up-to-date on the current situation with COVID-19 and will adjust accordingly.  For the time being, watch our web site or our facebook page for important updates to our event schedule.  Stay safe!"
-                  }
-                ]
+                misc: []
             };
         },
 
@@ -47,9 +43,9 @@
             },
 
         },
-/*
+
         mounted: function() {
-            axios({ method: "GET", "url": "https://api.myjson.com/bins/10cx7g" })
+            axios({ method: "GET", "url": "https://extendsclass.com/api/json-storage/bin/cecaedc" })
             .then(result => {
                 this.misc = result.data.misc;
                 //console.log("result is " + JSON.stringify(result.data.misc));
@@ -58,7 +54,7 @@
                 console.error(error);
             })
         }
-*/
+
 
     };
 </script>
