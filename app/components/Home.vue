@@ -45,7 +45,7 @@
         },
 
         mounted: function() {
-            axios({ method: "GET", "url": "https://extendsclass.com/api/json-storage/bin/cecaedc" })
+            axios({ method: "GET", "url": "http://data.csc4w.com/misc.json" })
             .then(result => {
                 this.misc = result.data.misc;
                 //console.log("result is " + JSON.stringify(result.data.misc));

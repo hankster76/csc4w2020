@@ -59,7 +59,7 @@
         },
 
         mounted: function() {
-            axios({ method: "GET", "url": "https://extendsclass.com/api/json-storage/bin/cccecfb" })
+            axios({ method: "GET", "url": "http://data.csc4w.com/events.json" })
             .then(result => {
                 this.events = result.data.events;
                 //console.log("result is " + JSON.stringify(result.data.events));
