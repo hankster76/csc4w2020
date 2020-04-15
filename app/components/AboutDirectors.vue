@@ -4,7 +4,9 @@
         <ScrollView background="#131d4e">
             <StackLayout>
                 <Label class="about-panel" textWrap="true"
-                    text="Our Directors are responsible for managing the club, scheduling our trips and meetings and leading the trail runs.  Their participation is voluntary and no Director is paid." />
+                    text="Our Directors are responsible for managing the club, scheduling our trips and meetings and leading the trail runs.  
+                    
+Their participation is voluntary and no Director is paid." />
                 <Button @tap="$modal.close" text="Close" class="button" />
             </StackLayout>
         </ScrollView>
