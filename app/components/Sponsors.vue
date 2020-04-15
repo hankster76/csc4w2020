@@ -7,9 +7,9 @@
             <Button class="button" text="About Our Sponsors" @tap="onAboutTap" />
             <ListView for="sponsor in sponsors" @itemTap="onItemTap" height="100%" separatorColor="white" class="list-panel" >
                 <v-template>
-                    <GridLayout columns="100,*" , rows="*,*">
-                        <Image :src="sponsor.imagesrc" row="0" col="0" height="70" width="70" />
-                        <Label :text="sponsor.name" class="listItemRight" textWrap="true" row="0" col="1"></Label>
+                    <GridLayout columns="200,*" , rows="*,*">
+                        <Image :src="sponsor.imagesrc" row="0" col="0" height="150" width="150" />
+                        <Label :text="sponsor.name" class="listRightItem" textWrap="true" row="0" col="1"></Label>
                     </GridLayout>
                 </v-template>
             </ListView>  
@@ -150,17 +150,6 @@
             "bio": "Serving the greater Colorado Springs area, we have window well covers that are designed to help keep out Rain, Snow, Hail, Intruders, Debris, Pets, Childredn our covers are matenance free, lightweight, egress safe and UV protected.  They are made from ploycarbonate and aluminum materials.  Transparent cover allows light in.  Security brackets at NO EXTRA CHARGE.  Tested to hold up to 350 lbs.  Custom made at your home."
         },
         {
-            "name": "Ram Off-Road Park", 
-            "address": "12750 Highway 94, Colorado Springs, CO, 80929",
-            "contact": " ",
-            "imagesrc": "~/images/ram.png", 
-            "email": "ramoffroad@msn.com", 
-            "phone": "(719)650-3044",
-            "phone2": " ",
-            "url": "http://ramoffroadpark.com/",
-            "bio": "RAM Off-Road Park is 86 acres of pure adrenaline-packed off-road courses, designed with one thing in mind… to push your limits for fun! From rock crawling, to high speed airborne action, RAM Off-Road Park is the place to hone your endurance / dirt bike / 4-wheel drive skills."
-        },
-        {
             "name": "Land Rover of Colorado Springs", 
             "address": "565 Automotive Drive, Colorado Springs, CO, 80905",
             "contact": " ",
@@ -249,17 +238,6 @@
             "bio": "A local, family owned provider of tune-ups and general repairs."
         },
         {
-            "name": "Grizzly Collision Customs", 
-            "address": "3250 East Platte Avenue, Colorado Springs, CO, 80909",
-            "contact": " ",
-            "imagesrc": "~/images/grizzly.jpg", 
-            "email": " ", 
-            "phone": "(719)634-6448",
-            "phone2": " ",
-            "url": "http://www.grizzlycollisionandcustoms.com/",
-            "bio": "We are FAMILY OWNED AND OPERATED, We are here to provide a Quality and affordable service for our community. Our passion is for the customs, however we have not left our roots of the daily driver. We still do collision on an everyday basis.  The new owners have many years of experience in the body shop buisness, with strong ties to the city of Colorado Springs, and it's Military community. Our goal is to provide quality repairs at an honest price along with great customer service. We work hard to give our customers a repair that they can afford, with or without insurance, and will work with them to offset the cost of their deductibles if possible.."
-        },
-        {
             "name": "Outlaw Jeep Adventures", 
             "address": "281 North Main Street, Moab, Utah, 84532",
             "contact": "Jeremy Rowan",
@@ -274,7 +252,7 @@
             "name": "Warn Industries", 
             "address": "12900 SE Capps Road, Clackamas, OR, 97015",
             "contact": "Anne Snedecor",
-            "imagesrc": "~/images/warn.gif", 
+            "imagesrc": "~/images/warn.jpg", 
             "email": " ", 
             "phone": "(800)542-9276",
             "phone2": " ",
@@ -304,17 +282,6 @@
             "bio": "Our Mission is to Bring Great Entertainment to Great Audiences and to be a Warm and Welcoming Gathering Place for the Community!"
         },
         {
-            "name": "Louie's Pizza", 
-            "address": "Louies Pizza",
-            "contact": " ",
-            "imagesrc": "~/images/louies.jpg", 
-            "email": " ", 
-            "phone": "(719)635-5565",
-            "phone2": " ",
-            "url": "http://louies-pizza.com/",
-            "bio": "Louie’s Pizza is proud to serve the Colorado Springs Community with the best pizza! Our mission is to provide you with the freshest product which is always consistent! Everything from blending two special kinds of flour for our pizza dough, cooking our sauce to perfection, using the finest Italian mozzarella cheeses and using fresh toppings prepared in our kitchen daily. Here at Louie’s we do not believe in serving pre-cooked or frozen dishes. Real Authentic Italian food has a taste so unique you will know it as soon as you taste it."
-        },
-        {
             "name": "Metalcloak", 
             "address": "2484 Mercantile Drive, Rancho Cordova, CA, 95742",
             "contact": " ",
@@ -335,17 +302,6 @@
             "phone2": " ",
             "url": "https://www.bestop.com/",
             "bio": "Bestop has been a leader in Jeep and Truck accessories for more than 60 years. Our selection of products comes from years of creating specialty products for outdoor adventures with your vehicle."
-        },
-        {
-            "name": "Extreme Terrain", 
-            "address": "600 N. Cedar Hollow Rd, Paoli, PA  19301",
-            "contact": " ",
-            "imagesrc": "~/images/extremeterrain_1457645050452.jpg", 
-            "email": " ", 
-            "phone": "(800)988-4605",
-            "phone2": " ",
-            "url": "https://www.extremeterrain.com/",
-            "bio": "Whether you're into crawling canyons, climbing mountains, wheeling a tough trail, exploring the off-road, journeying to your next campsite, or just cruising the open highway give us a call to chat about your next modification—we’ll be happy to recommend the right Wrangler parts or Tacoma accessories for your project and your budget!"
         }
 
                 ]

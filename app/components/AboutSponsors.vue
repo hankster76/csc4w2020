@@ -21,9 +21,9 @@
 
 <style>
     .about-panel {
-        horizontal-align: center;
+        horizontal-align: left;
         color: white;
-        font-size: 20;
+        font-size: 15;
         padding: 15;
         background-color: #131d4e;
     }

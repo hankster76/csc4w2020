@@ -7,9 +7,9 @@
             <ListView for="event in events" @itemTap="onItemTap" height="100%" separatorColor="white" class="list-panel">
                 <v-template>
                     <GridLayout columns="auto,*" rows="*,*">
-                        <Image :src="event.imageSrc" height="100" width="100" col="0" rowSpan="2" class="pic"/>
-                        <Label :text="event.eventDate" textWrap="true" class="event" row="0" col="1" />
-                        <Label :text="event.name" class="event" textWrap="true" row="1" col="1"></Label>
+                        <Image :src="event.imageSrc" height="120" width="120" col="0" rowSpan="2" class="pic"/>
+                        <Label :text="event.eventDate" textWrap="true" class="event1" row="0" col="1" />
+                        <Label :text="event.name" class="event2" textWrap="true" row="1" col="1"></Label>
                     </GridLayout>
                 </v-template>
             </ListView>   
@@ -223,7 +223,7 @@
     {
       "name": "China Wall",
       "group": "group 1",
-      "eventDate": "July 20th, 2020",
+      "eventDate": "June 20th, 2020",
       "dateFld": "06/20/2020",
 	  "duration": 8,
 	  "startTimeFld": "8",
@@ -261,28 +261,12 @@
       "long": "-106.085202"
     },
     {
-      "name": "Set Them Free Event",
-      "group": "All Groups",
-      "eventDate": "June 26th-28th, 2020",
-      "dateFld": "06/26/2020",
-	  "duration": 12,
-	  "startTimeFld": "8",
-      "meetAt": "Chaffee County Fairgrounds",
-      "meetTime": "Each Day",
-      "leaders": "See web site http://stfoffroad.org",
-      "rating": "Easy to Most Difficult",
-      "imageSrc": "~/images/setthemfree.png",
-      "desc": "Come join the fun at the annual Set Them Free event to raise money to stop human trafficking.  There are different skilled runs on different trails all weekend.  Its a great time for everyone!  You must register and pay for this event at http://stfoffroad.org",
-      "lat": "38.519224",
-      "long": "-106.062369"
-    },
-{
       "name": "Medano Pass Camping",
       "group": "Group All",
       "eventDate": "July 10th, 2020",
       "dateFld": "07/10/2020",
-	  "duration": 8,
-	  "startTimeFld": "17",
+      "duration": 8,
+      "startTimeFld": "17",
       "meetAt": "37.856027, -105.432721",
       "meetTime": "Afternoon/Evening",
       "leaders": "Glen and Kirk",
@@ -301,8 +285,8 @@
       "group": "Group 1",
       "eventDate": "July 11th, 2020",
       "dateFld": "07/11/2020",
-	  "duration": 8,
-	  "startTimeFld": "9",
+	    "duration": 8,
+	    "startTimeFld": "9",
       "meetAt": "37.856027, -105.432721",
       "meetTime": "9:00AM",
       "rating": "Easy to Intermediate",
@@ -312,7 +296,7 @@
       "leader2": "Kirk",
       "leaderPhone": "(719)650-6689",
       "imageSrc": "~/images/medanoPass.jpg",
-      "desc": "We will leave the camping area at 9:00 and head to the top of Blanca Peak.  This trail is very difficult so you will need a lifted rig with larger tiers and lockers.",
+      "desc": "We will leave the camping area at 9:00 and head over Medano Pass to the sand dunes.  This trail travels along Medano Creek with many water crossings and deep sand near the end at the Great Sand Dunes.",
       "lat": "37.521855",
       "long": "-105.601971"
     },
@@ -352,7 +336,7 @@
       "leader2": "Dave",
       "leader2Phone": "(719)634-6006",
       "imageSrc": "~/images/blanca.jpg",
-      "desc": "We will leave the camping area at 9:00 and head to the top of Blanca Peak.  This trail is very difficult so you will need a lifted rig with larger tiers and lockers.",
+      "desc": "We will leave the camping area at 9:00 and head to the top of Blanca Peak.  This trail is very difficult so you will need a lifted rig with larger tires and lockers.",
       "lat": "37.521855",
       "long": "-105.601971"
     },
@@ -488,7 +472,7 @@
       "leader1Phone": "(719)650-6689",
       "leader2": "Jeremy",
       "leader2Phone": "(719)205-2565",
-      "rating": "Moderate to Difficult",
+      "rating": "Moderate",
       "imageSrc": "~/images/rimrocker.jpg",
       "desc": "This is an overland trip where we will wheel and camp along the trail.  Contact Kirk or Jeremy if you are interested in this trip and for details.",
       "lat": "",
@@ -663,6 +647,27 @@
     
     .event {
         color: white;
+        vertical-align: top;
+        font-size: 20;
+        font-style: italic;
+        background-color: #131d4e; 
+        text-align: left;
+        padding-left: 2;
+    }
+
+    .event1 {
+        color: white;
+        vertical-align: bottom;
+        font-size: 20;
+        font-style: italic;
+        background-color: #131d4e; 
+        text-align: left;
+        padding-left: 2;
+    }
+
+    .event2 {
+        color: white;
+        vertical-align: top;
         font-size: 20;
         font-style: italic;
         background-color: #131d4e; 
