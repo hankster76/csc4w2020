@@ -198,7 +198,7 @@
       "leader2Phone": "(812)455-5477",
       "rating": "Difficult",
       "imageSrc": "~/images/eaglerock.jpg",
-      "desc": "We will wheel the Eagle Rock trail.  This is a difficult trail and requires lifted rigs with larger tiers and possibly lockers",
+      "desc": "We will wheel the Eagle Rock trail.  This is a difficult trail and requires lifted rigs with larger tires and possibly lockers",
       "lat": "38.938674",
       "long": "-104.736641"
     },

@@ -13,7 +13,7 @@
                 <Label :text="trail.difficulty" col="1" textWrap="true" class="sponnameRight" ></Label>
             </GridLayout>
             <GridLayout columns="90, *">
-                <Label text="Funtrex: " col="0" class="sponLeft"></Label>
+                <Label text="FunTreks: " col="0" class="sponLeft"></Label>
                 <Label :text="trail.funtrex" col="1" textWrap="true" class="sponRight" @tap="navTo(trail.funtrex)"></Label>
             </GridLayout>
             <GridLayout columns="90, *">

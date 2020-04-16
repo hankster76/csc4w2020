@@ -117,7 +117,7 @@
             "bio": "Whether your passion is hunting, fishing, camping, backpacking or shooting, it's important to have the right equipment when you head into the great outdoors. Quality gear gives you the edge you need to perform well and enjoy the journey. That's why Sportsman's Warehouse carries only top-quality, brand-name products for the serious outdoor enthusiast."
         },
         {
-            "name": "Fun Treks Guidebooks", 
+            "name": "FunTreks Guidebooks", 
             "address": "P.O. Box 3127, Colorado Springs, CO, 80132",
             "contact": " ",
             "imagesrc": "~/images/funtreks.jpg", 
