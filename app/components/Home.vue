@@ -30,7 +30,7 @@
             return {
                 misc: [
     {
-      "motd": "We have canceled the kickoff meeting on April 25th.  We are staying up-to-date on the current situation with COVID-19 and will adjust our schedule accordingly.  For the time being, watch our web site or our facebook page for important updates to our event schedule.  Stay safe!"
+      "motd": "We have canceled the upcoming events on May 9th.  We are staying up-to-date on the current situation with COVID-19 and will adjust our schedule accordingly.  For the time being, watch this app, our web site or our facebook page for important updates to our event schedule.  Stay safe!"
     }
  
                 ]
