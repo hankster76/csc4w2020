@@ -1,0 +1,4 @@
+D:\nativescript\csc4w\platforms\android\app\src\main\assets\app\bundle.js
+D:\nativescript\csc4w\platforms\android\app\src\main\assets\app\runtime.js
+D:\nativescript\csc4w\platforms\android\app\src\main\assets\app\tns-java-classes.js
+D:\nativescript\csc4w\platforms\android\app\src\main\assets\app\vendor.js

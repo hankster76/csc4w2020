@@ -1,0 +1,15 @@
+{
+	"nativescript-calendar": {
+		"D:\\nativescript\\csc4w\\node_modules\\nativescript-calendar\\platforms\\android\\nativescript_calendar.aar": "6487144c0e4ef16aec853f1058bbc6c02b4c636a"
+	},
+	"nativescript-phone": {
+		"D:\\nativescript\\csc4w\\node_modules\\nativescript-phone\\platforms\\android\\AndroidManifest.xml": "34b32ea103c3f5a5860804455685785bef9e3e95",
+		"D:\\nativescript\\csc4w\\node_modules\\nativescript-phone\\platforms\\android\\nativescript_phone.aar": "177827d69862e82d7bd6e4df99ea2709f2968632"
+	},
+	"@nativescript/core": {
+		"D:\\nativescript\\csc4w\\node_modules\\@nativescript\\core\\platforms\\android\\native-api-usage.json": "34ee0e9771ad7dd9d388c191734d71507a04565a"
+	},
+	"tns-core-modules-widgets": {
+		"D:\\nativescript\\csc4w\\node_modules\\tns-core-modules-widgets\\platforms\\android\\widgets-release.aar": "bf772614fb9bf3fe38727cea65488dc4e6a22a15"
+	}
+}
