@@ -26,7 +26,8 @@
         
         data: () => {
             return {
-                directors: [
+                directors: []
+/*
         {
             "name": "Kirk Bode", 
             "title": "President", 
@@ -136,6 +137,7 @@
             "bio": "Keith is a new director this year so make sure to introduce yourself to him and his wife Keri at the kick-off meeting or on the trail."
         }
                 ] 
+*/
             };
         },
 
@@ -164,7 +166,7 @@
             },
 
         },
-/*
+
         mounted: function() {
             axios({ method: "GET", "url": "http://data.csc4w.com/directors.json" })
             .then(result => {
@@ -175,7 +177,7 @@
             })
 
             }
-*/
+
     }   
 
 

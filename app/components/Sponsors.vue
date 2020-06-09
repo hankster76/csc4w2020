@@ -26,7 +26,8 @@
         
         data: () => {
             return {
-                sponsors: [
+                sponsors: []
+/*
 
         {
             "name": "4Wheel Parts", 
@@ -305,6 +306,7 @@
         }
 
                 ]
+*/
             };
         },
 
@@ -334,7 +336,7 @@
 
 
         },
-/*
+
         mounted: function() {
             axios({ method: "GET", "url": "http://data.csc4w.com/sponsors.json" })
             .then(result => {
@@ -345,7 +347,7 @@
                 console.error(error);
             })
         }
-*/
+
 }   
 
 

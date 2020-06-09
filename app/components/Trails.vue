@@ -27,7 +27,8 @@
         
         data: () => {
             return {
-                "trails": [
+                "trails": []
+/*
                 {
                     "name": "Metberry Gulch", 
                     "imagesrc": "~/images/metberry1.jpg", 
@@ -219,6 +220,7 @@
                 }
 
                 ]
+*/
             };
         },
 
@@ -247,18 +249,18 @@
             }
 
         },
- /*    
+     
         mounted: function() {
                 axios({ method: "GET", "url": "http://data.csc4w.com/trails.json" })
                 .then(result => {
                     this.trails = result.data.trails;
-                    console.log("result is " + JSON.stringify(result.data.trails));
+                    //console.log("result is " + JSON.stringify(result.data.trails));
 
                 }, error => {
                     console.error(error);
                 })
         }
-*/
+
 }   
 
 

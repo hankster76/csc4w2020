@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.nativescript.csc4w"
     android:targetSandboxVersion="2"
-    android:versionCode="10008"
-    android:versionName="1.8" >
+    android:versionCode="10009"
+    android:versionName="1.9" >
 
     <uses-sdk
         android:minSdkVersion="17"

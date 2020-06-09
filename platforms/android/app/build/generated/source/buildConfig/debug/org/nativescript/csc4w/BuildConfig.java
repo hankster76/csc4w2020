@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "org.nativescript.csc4w";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 10008;
-  public static final String VERSION_NAME = "1.8";
+  public static final int VERSION_CODE = 10009;
+  public static final String VERSION_NAME = "1.9";
 }
