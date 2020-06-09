@@ -26,98 +26,47 @@
         
         data: () => {
             return {
-                events: [
+                events: []
+/*                
     {
-      "name": "Memorial Day Trip to Moab, UT",
-      "group": "All Groups",
-      "eventDate": "May 23rd, 2020",
-      "dateFld": "05/23/2020",
-	  "duration": 8,
-	  "startTimeFld": 8,
-      "meetAt": "Moab City Market, 425 S Main St, Moab, UT, 84532",
-      "meetTime": "8:00AM",
-      "leaders": "Pete",
-      "leader1": "Pete",
-      "leader1Phone": "(303)909-6715",
-      "rating": "Intermediate to Difficult depending on trail",
-      "imageSrc": "~/images/hellsrevenge.jpg",
-      "desc": "Moab, Utah is one of the best places to wheel in the country!  Come and join our group to test some of the trails and enjoy the views.",
-      "lat": "38.567189",
-      "long": "-109.549978"
-    },
-    {
-      "name": "Breakfast at Faricy Boys",
-      "group": "All Groups",
-      "eventDate": "May 30th, 2020",
-      "dateFld": "05/30/2020",
-	  "duration": 1,
-	  "startTimeFld": "8",
-      "meetAt": "4950 New Car Drive, Colorado Springs, CO, 80923",
-      "meetTime": "8:00AM",
-      "leaders": "All leaders",
-      "leader1": "Kirk",
-      "leader1Phone": "(719)650-6689",
-      "rating": "Fun",
-      "imageSrc": "~/images/faricylogo.png",
-      "desc": "Come join us for free breakfast at Faricy Boys Jeep.  We will depart for trails from here",
-      "lat": "38.938674",
-      "long": "-104.736641"
-    },
-    {
-      "name": "Mount Baldy Trail",
-      "group": "group 1",
-      "eventDate": "May 30th, 2020",
-      "dateFld": "05/30/2020",
-	  "duration": 8,
-	  "startTimeFld": "9",
-      "meetAt": "4950 New Car Drive, Colorado Springs, CO, 80923",
-      "meetTime": "After Faricy Breakfast",
-      "leaders": "Dan and Mitchelle",
-      "leader1": "Dan",
-      "leader1Phone": "(719)210-1644",
-      "leader2": "Michelle",
-      "leader2Phone": "(719)229-1535",
-      "rating": "Intermediate",
-      "imageSrc": "~/images/mtbaldy.jpg",
-      "desc": "We will wheel as much of the Mt. Baldy trail as the snow will allow.  This trail is fairly gentle and offers spectacular views",
-      "lat": "38.938674",
-      "long": "-104.736641"
-    },
-    {
-      "name": "Eagle Rock",
-      "group": "group 2",
-      "eventDate": "May 30th, 2020",
-      "dateFld": "05/30/2020",
-	  "duration": 8,
-	  "startTimeFld": "9",
-      "meetAt": "4950 New Car Drive, Colorado Springs, CO, 80923",
-      "meetTime": "After Faricy Breakfast",
-      "leaders": "Ward and Keith",
-      "leader1": "Ward",
-      "leader1Phone": "(719)213-5915",
-      "leader2": "Keith",
-      "leader2Phone": "(812)455-5477",
-      "rating": "Difficult",
-      "imageSrc": "~/images/eaglerock.jpg",
-      "desc": "We will wheel the Eagle Rock trail.  This is a difficult trail and requires lifted rigs with larger tires and possibly lockers",
-      "lat": "38.938674",
-      "long": "-104.736641"
-    },
-    {
-      "name": "Trail Cleanup Day #1",
-      "group": "All Groups",
+      "name": "Mount Baldy",
+      "group": "Group 1",
       "eventDate": "June 13th, 2020",
       "dateFld": "06/13/2020",
 	  "duration": 8,
 	  "startTimeFld": "8",
       "meetAt": "St. Pauls Catholic Church, 9 El Pomar Rd, Colorado Springs, CO, 80906",
       "meetTime": "8:00AM",
-      "leaders": "Jim",
+      "leaders": "Jim, Dan, Michelle",
       "leader1": "Jim",
       "leader1Phone": "(719)200-4757",
-      "rating": "Fun/Hard Work",
-      "imageSrc": "~/images/trailcleanup.jpg",
-      "desc": "CSC4W has adopted the Mt. Baldy trail system and we spend 2 days a year helping the US Forest Service with trail clean-up and repair.  This is an important event for our club and all members are encouraged to come.  Lunch will be provided by Land Rover of Colorado Springs.",
+      "leader2": "Dan",
+      "leader2Phone": "(719)210-1644",
+      "leader3": "Michelle",
+      "leader3Phone": "(719)229-1535",
+      "rating": "Moderate",
+      "imageSrc": "~/images/mtbaldy.jpg",
+      "desc": "We will take the trail from Old Stage road and loop around the back side of Pikes Peak.  If the trail is passable we will drive to the top of Mount Baldy",
+      "lat": "38.791414",
+      "long": "-104.855010"
+    },
+    {
+      "name": "Eagle Rock",
+      "group": "Group 2",
+      "eventDate": "June 13th, 2020",
+      "dateFld": "06/13/2020",
+	  "duration": 8,
+	  "startTimeFld": "8",
+      "meetAt": "St. Pauls Catholic Church, 9 El Pomar Rd, Colorado Springs, CO, 80906",
+      "meetTime": "8:00AM",
+      "leaders": "Ward, Glen",
+      "leader1": "Ward",
+      "leader1Phone": "(719)213-5912",
+      "leader2": "Glen",
+      "leader2Phone": "(719)371-7357",
+      "rating": "Difficult",
+      "imageSrc": "~/images/eaglerock.jpg",
+      "desc": "Eagle Rock is a very difficult and challenging trail.  Experienced wheelers with modified rigs with larger tires and at least one locker are recommended.",
       "lat": "38.791414",
       "long": "-104.855010"
     },
@@ -492,7 +441,8 @@
 }
 
                 ]
-            };
+*/
+    };
         },
 
         methods: {
@@ -522,7 +472,7 @@
 
 
         },
-/*
+
         mounted: function() {
             axios({ method: "GET", "url": "http://data.csc4w.com/events.json" })
             .then(result => {
@@ -533,7 +483,6 @@
                 console.error(error);
             })
         }
-*/
     }   
 
 

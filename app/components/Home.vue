@@ -28,12 +28,8 @@
 
         data: () => {
             return {
-                misc: [
-    {
-      "motd": "We have canceled the upcoming events on May 9th.  We are staying up-to-date on the current situation with COVID-19 and will adjust our schedule accordingly.  For the time being, watch this app, our web site or our facebook page for important updates to our event schedule.  Stay safe!"
-    }
- 
-                ]
+                misc: []
+
             };
         },
 
@@ -48,7 +44,7 @@
             },
 
         },
-/*
+
         mounted: function() {
             axios({ method: "GET", "url": "http://data.csc4w.com/misc.json" })
             .then(result => {
@@ -59,7 +55,7 @@
                 console.error(error);
             })
         }
-*/
+
 
     };
 </script>
