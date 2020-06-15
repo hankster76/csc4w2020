@@ -1,7 +1,6 @@
 C:\Android\android-sdk/platforms/android-29/android.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\0041918a8563c513e14f83ab320304f7\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\016a27afce00c7f8c7f6d13f62990a59\classes.jar
-D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\1257badb01174391f65b55df44ca14b1\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\1efd5c348f58d18295b203f5aafac173\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\2c2762237c8a2e11e83a9c5d29f188bc\annotation-1.0.0.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\2c85ca42378e1e464f173c7b9aec1633\lifecycle-common-2.0.0.jar
@@ -38,5 +37,6 @@ D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\da947877
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\e089b6696023d060c3cc502fb62e1bed\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\e76494e1389cffb632af36990d187efd\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\ec0469c1311cc8235b723fa893d12ad8\classes.jar
+D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\eef57309fa10d9bedadf6c94cc401855\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\f20616ce965daa039ab96f5af27f1e1b\classes.jar
 D:\nativescript\csc4w\platforms\android\app\build\exploded-dependencies\f6833dc2170ed48b3bff4f0e7b223396\classes.jar
