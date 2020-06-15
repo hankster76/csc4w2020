@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
 		<dict>
-			<key>NSAllowsArbitraryLoads</key>
-			<true/>
-			<key>NSExceptionDomains</key>
+			<key>csc4w.com.com</key>
 			<dict>
-				<key>csc4w.com.com</key>
-				<dict>
-					<key>NSIncludesSubdomains</key>
-					<true/>
-					<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-					<false/>
-				</dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
 		</dict>
 	</dict>	
 	<key>NSCalendarsUsageDescription</key>
