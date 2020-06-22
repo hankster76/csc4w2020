@@ -342,12 +342,14 @@
             .then(result => {
                 this.sponsors = result.data.sponsors;
                 //console.log("result is " + JSON.stringify(result.data.sponsors));
-
-            }, error => {
-                console.error(error);
             })
+            .catch((error) => {
+                console.log("Error caught " + error);
+                this.$showModal(NoConnect);
+            }), error => {
+                console.log("Error " + error)
+            }
         }
-
 }   
 
 

@@ -172,12 +172,14 @@
             .then(result => {
                 this.directors = result.data.directors;
                 //console.log("result is " + JSON.stringify(result.data.directors));
-            }, error => {
-                console.error(error);
             })
-
+            .catch((error) => {
+                console.log("Error caught " + error);
+                this.$showModal(NoConnect);
+            }), error => {
+                console.log("Error " + error)
             }
-
+        }
     }   
 
 

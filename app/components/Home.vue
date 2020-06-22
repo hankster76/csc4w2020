@@ -22,6 +22,7 @@
 
 <script>
     import AboutUs from "~/components/AboutUs";
+    import NoConnect from "~/components/NoConnect";
     import axios from "axios";
     
     export default {
@@ -48,12 +49,16 @@
         mounted: function() {
             axios({ method: "GET", "url": "http://data.csc4w.com/misc.json" })
             .then(result => {
+                //console.log("Result is " + result.statusText);
                 this.misc = result.data.misc;
-                //console.log("result is " + JSON.stringify(result.data.misc));
-
-            }, error => {
-                console.error(error);
+                //console.log("result is " + JSON.stringify(result.data.misc);
             })
+            .catch((error) => {
+                //console.log("Error caught " + error);
+                this.$showModal(NoConnect);
+            }), error => {
+                console.log("Error " + error)
+            }
         }
 
 

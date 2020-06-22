@@ -255,12 +255,14 @@
                 .then(result => {
                     this.trails = result.data.trails;
                     //console.log("result is " + JSON.stringify(result.data.trails));
-
-                }, error => {
-                    console.error(error);
                 })
+                .catch((error) => {
+                console.log("Error caught " + error);
+                this.$showModal(NoConnect);
+            }), error => {
+                console.log("Error " + error)
+            }
         }
-
 }   
 
 

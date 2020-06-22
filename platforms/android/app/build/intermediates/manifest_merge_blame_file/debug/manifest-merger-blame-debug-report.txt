@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.csc4w"
+4    android:versionCode="10009"
+5    android:versionName="1.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:13:2-76
+17-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:14:2-77
+18-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:15:2-63
+19-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.READ_CALENDAR" />
+20-->[:nativescript_calendar:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\67632037efb6d191623e577bfbdd1aac\nativescript_calendar\AndroidManifest.xml:9:5-72
+20-->[:nativescript_calendar:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\67632037efb6d191623e577bfbdd1aac\nativescript_calendar\AndroidManifest.xml:9:22-69
+21    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+21-->[:nativescript_calendar:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\67632037efb6d191623e577bfbdd1aac\nativescript_calendar\AndroidManifest.xml:10:5-73
+21-->[:nativescript_calendar:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\67632037efb6d191623e577bfbdd1aac\nativescript_calendar\AndroidManifest.xml:10:22-70
+22    <uses-permission android:name="android.permission.CALL_PHONE" />
+22-->[:nativescript_phone:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\29fdf7b5c771fd52123aaeb5cb8de6be\nativescript_phone\AndroidManifest.xml:9:5-69
+22-->[:nativescript_phone:] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\29fdf7b5c771fd52123aaeb5cb8de6be\nativescript_phone\AndroidManifest.xml:9:22-66
+23
+24    <application
+24-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:17:2-38:16
+25        android:name="com.tns.NativeScriptApplication"
+25-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:18:3-49
+26        android:allowBackup="true"
+26-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:19:3-29
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\dmitchel\.gradle\caches\transforms-2\files-2.1\eeb5da7c8c0996fbc1c9cdf4633c58bb\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/icon"
+29-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:20:3-32
+30        android:label="@string/app_name"
+30-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:21:3-35
+31        android:theme="@style/AppTheme" >
+31-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:22:3-34
+32        <activity
+32-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:24:3-36:14
+33            android:name="com.tns.NativeScriptActivity"
+33-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:25:4-47
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+34-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:27:4-120
+35            android:label="@string/title_activity_kimera"
+35-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:26:4-49
+36            android:theme="@style/LaunchScreenTheme" >
+36-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:28:4-44
+37            <meta-data
+37-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:30:4-87
+38                android:name="SET_THEME_ON_LAUNCH"
+38-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:30:15-49
+39                android:resource="@style/AppTheme" />
+39-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:30:50-84
+40
+41            <intent-filter>
+41-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:32:4-35:20
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:33:5-57
+42-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:33:13-54
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:34:5-65
+44-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:34:15-62
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.tns.ErrorReportActivity" />
+47-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:37:3-57
+47-->D:\nativescript\csc4w\platforms\android\app\src\main\AndroidManifest.xml:37:13-55
+48    </application>
+49
+50</manifest>

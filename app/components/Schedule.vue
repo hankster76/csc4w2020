@@ -478,10 +478,13 @@
             .then(result => {
                 this.events = result.data.events;
                 //console.log("result is " + JSON.stringify(result.data.events));
-
-            }, error => {
-                console.error(error);
             })
+            .catch((error) => {
+                console.log("Error caught " + error);
+                this.$showModal(NoConnect);
+            }), error => {
+                console.log("Error " + error)
+            }
         }
     }   
 
