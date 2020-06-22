@@ -1,8 +1,8 @@
 {
-	"time": "Mon Jun 22 2020 10:38:14 GMT-0600 (Mountain Daylight Time)",
+	"time": "Mon Jun 22 2020 11:23:48 GMT-0600 (Mountain Daylight Time)",
 	"nativePlatformStatus": "3",
-	"release": false,
+	"release": true,
 	"changesRequireBuild": true,
 	"projectFileHash": "0866592a425cb2b5101fe1a4de14642715f3b60efb7c4fa55b4380cab3ad2739",
-	"changesRequireBuildTime": "Mon Jun 22 2020 10:38:14 GMT-0600 (Mountain Daylight Time)"
+	"changesRequireBuildTime": "Mon Jun 22 2020 11:23:48 GMT-0600 (Mountain Daylight Time)"
 }
