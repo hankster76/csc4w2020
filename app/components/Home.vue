@@ -6,7 +6,7 @@
         <Image src="~/images/logo.png" height="200" width="200" />
         <Label
           textWrap="true"
-          text="This App will keep you updated on the activities, directors, sponsors and trails for the Colorado Springs Christian 4-Wheelers club"
+          text="(V1.93) This App will keep you updated on the activities, directors, sponsors and trails for the Colorado Springs Christian 4-Wheelers club"
           class="description"
         />
         <ListView for="item in misc" height="160" class = "homePanel">
@@ -23,6 +23,7 @@
 <script>
     import AboutUs from "~/components/AboutUs";
     import NoConnect from "~/components/NoConnect";
+    import dialogs from "tns-core-modules/ui/dialogs";
     import axios from "axios";
     
     export default {
@@ -54,10 +55,12 @@
                 //console.log("result is " + JSON.stringify(result.data.misc);
             })
             .catch((error) => {
-                //console.log("Error caught " + error);
+                console.log("Error caught " + error);
                 this.$showModal(NoConnect);
             }), error => {
-                console.log("Error " + error)
+                dialogs.alert("Error retrieving data is: " + error).then(function() {
+                  console.log("Dialog closed!");
+                });
             }
         }
 

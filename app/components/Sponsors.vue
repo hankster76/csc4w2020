@@ -344,10 +344,14 @@
                 //console.log("result is " + JSON.stringify(result.data.sponsors));
             })
             .catch((error) => {
-                console.log("Error caught " + error);
-                this.$showModal(NoConnect);
+                //console.log("Error caught " + error);
+                dialogs.alert("Error retrieving data is: " + error).then(function() {
+                  console.log("Dialog closed!");
+                });
             }), error => {
-                console.log("Error " + error)
+                dialogs.alert("Error retrieving data is: " + error).then(function() {
+                  console.log("Dialog closed!");
+                });
             }
         }
 }   

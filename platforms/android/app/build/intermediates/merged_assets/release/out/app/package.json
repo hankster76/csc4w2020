@@ -1,9 +1,0 @@
-{
-    "android": {
-        "v8Flags": "--expose_gc",
-        "markingMode": "none"
-    },
-    "main": "bundle",
-    "name": "csc4w",
-    "version": "1.0.0"
-}
